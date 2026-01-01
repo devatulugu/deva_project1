@@ -41,7 +41,7 @@ function Contact() {
 
             <div className="flex items-center gap-3">
               <FaPhoneAlt className="text-accent dark:text-accent-dark" />
-              <span>+91 98765 43210</span>
+              <span>+91 79015 40032</span>
             </div>
 
             <div className="flex items-center gap-3">
