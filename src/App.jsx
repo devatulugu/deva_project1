@@ -2,6 +2,7 @@ import { useState } from "react"
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 function App() {  
   const [isDark, setIsDark] = useState(false);
@@ -13,6 +14,7 @@ function App() {
         <Navbar isDark={isDark} setIsDark={setIsDark} />
         <Home />
         <Skills />
+        <Projects/>
       </div>
     </div>
     </>
