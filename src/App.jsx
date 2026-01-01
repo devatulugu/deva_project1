@@ -5,6 +5,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import TimelineSection from "./components/TimelineSection";
 import Certs from "./components/Certs";
+import Contact from "./components/Contact";
 
 function App() {  
   const [isDark, setIsDark] = useState(false);
@@ -19,6 +20,7 @@ function App() {
         <Projects/>
         <TimelineSection/>
         <Certs/>
+        <Contact/>
       </div>
     </div>
     </>
