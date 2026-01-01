@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import TimelineSection from "./components/TimelineSection";
 
 function App() {  
   const [isDark, setIsDark] = useState(false);
@@ -15,6 +16,7 @@ function App() {
         <Home />
         <Skills />
         <Projects/>
+        <TimelineSection/>
       </div>
     </div>
     </>
