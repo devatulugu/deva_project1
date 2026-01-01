@@ -1,12 +1,19 @@
+import { useState } from "react"
+import Navbar from "./components/Navbar";
 
-function App() {
-  
+function App() {  
+  const [isDark, setIsDark] = useState(false);
+
   return (
     <>
-    <h1 className="text-3xl bg-amber-300">
-    Hello world!
-  </h1>
+     <div className={isDark ? "dark" : ""}>
+      <div className="min-h-screen bg-bg text-text dark:bg-bg-dark dark:text-text-dark transition-colors duration-300">
+        <Navbar isDark={isDark} setIsDark={setIsDark} />
+      </div>
+    </div>
     </>
+   
+   
   )
 }
 
